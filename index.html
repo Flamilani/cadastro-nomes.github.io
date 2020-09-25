@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro de Nomes</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="cabecalho">
+        <img class="logo-bootcamp" src="img/bootcamp.png" alt="Bootcamp" />
+        <h1><strong>Bootcamp:</strong> Desenvolvedor Full Stack</h1>
+        <h2>Aula Prática - Fundamentos</h2>
+      </div>
+    </header>
+    <main>
+      <div class="componente">
+        <h1 class="titulo">Cadastro de nomes</h1>
+        <form>
+          <label for="nome"
+            >Nome:
+            <input
+              type="text"
+              id="inputName"
+              placeholder="Seu nome"
+              autocomplete="off"
+            />
+          </label>
+        </form>
+        <div class="conteudo">
+          <h2>Nomes cadastrados até o momento</h2>
+          <div id="names"></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="perfil"><em>Develop by</em> Flavio Milani</div>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/flavio-milani/" target="_blank"
+          ><img src="./img/linkedin.png" alt="Linkedin" />
+        </a>
+        <a href="https://github.com/Flamilani" target="_blank"
+          ><img src="./img/logotipo-do-github.png" alt="Github" />
+        </a>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
